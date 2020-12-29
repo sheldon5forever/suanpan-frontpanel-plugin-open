@@ -1,0 +1,24 @@
+.fc-event{
+    display: none!important;
+}
+.scheduleWrapper{
+    width: 100%;
+}
+.scheduleWrapper ul{
+    padding: 0px;
+}
+.scheduleWrapper ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scheduleWrapper table td{
+    cursor: pointer;
+}
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead{
+    border: none;
+}
+.fc td.fc-today{
+    border: none;
+}
